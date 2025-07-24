@@ -3,6 +3,7 @@ import Header from './components/header'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import HomePage from './pages/Homepage'
 import ProductsPage from './pages/ProductsPage'
+import AboutUs from './pages/AboutUsPage'
 import DefaultLayout from './layout/DefaultLayout'
 
 
@@ -17,7 +18,7 @@ function App() {
 
       <Route Component={DefaultLayout}>
         <Route index Component={HomePage}></Route>
-         {/*<Route path='/Abouth_Us' Component={AbouthUs}></Route>*/}
+         <Route path='/Abouth_Us' Component={AboutUs}></Route>
         <Route path='/products' Component={ProductsPage}></Route> 
 
       </Route>

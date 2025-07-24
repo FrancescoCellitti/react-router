@@ -4,7 +4,7 @@ export default function Header() {
         <nav
         class="nav justify-content-center  ">
         <a class="nav-link " href="/" aria-current="page">home</a>
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="/Abouth_Us">About Us</a>
        </nav>
        </>
        

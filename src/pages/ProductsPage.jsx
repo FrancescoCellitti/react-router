@@ -28,7 +28,6 @@ export default function ProductsPage() {
                                 <div class="card-body">
                                     <h4 class="card-text">{dato.title}</h4>
                                     <p>{dato.price}</p>
-                                    <sub>{dato.desrciption}</sub>
                                 </div>
                             </div>
                         </div>
