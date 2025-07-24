@@ -10,7 +10,7 @@ export default function HomePage() {
                         Buono shopping!
                     </p>
                     <button class="btn btn-primary btn-lg" type="button">
-                        scopri il nostro catalogo
+                        <a href="/products" className="text-reset text-decoration-none">scopri il nostro catalogo</a>
                     </button>
                 </div>
             </div>
